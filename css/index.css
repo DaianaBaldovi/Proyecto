@@ -25,3 +25,6 @@ h4{font-style: inherit;
 img {border-style: solid;
     border-color: deepskyblue;
 }
+
+footer {font-style: italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
