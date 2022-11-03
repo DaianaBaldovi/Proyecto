@@ -1,1 +1,16 @@
-body {background-color: azure;}
+body {background-color: rgb(240, 255, 250);}
+h1 {font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+color: blue;}
+h2 {font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+color: rgba(0, 89, 255, 0.801);}
+h3 {font-style: normal;
+font-family: 'Times New Roman', Times, serif;
+color: cornflowerblue;}
+p {font-style: italic;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{font-style: inherit; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: fuchsia;}
