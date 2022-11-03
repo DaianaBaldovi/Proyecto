@@ -7,22 +7,29 @@ h1 {text-align: center;
     font-family: 'Times New Roman', Times, serif;
 color: blue;}
 
-h2 {font-style: normal;
+h2 {text-align: center;
+    font-style: normal;
     font-family: 'Times New Roman', Times, serif;
 color: rgba(0, 89, 255, 0.801);}
 
-h3 {font-style: normal;
+h3 {text-align: left;
+    font-style: normal;
 font-family: 'Times New Roman', Times, serif;
 color: cornflowerblue;}
 
-p {font-style: italic;
+p {text-align: left;
+    font-style: italic;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h4{font-style: inherit; 
+h4{text-align: left;
+    font-style: inherit; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: lightskyblue;}
 
-img {border-style: solid;
+img {display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
     border-color: deepskyblue;
 }
 
