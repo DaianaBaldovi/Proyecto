@@ -1,11 +1,57 @@
-body {background-color: rgb(240, 255, 250);}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
 
-h1 {text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {background-color: rgb(206, 255, 239);}
+
+header {background-color: white;
+    height: 140px;
+
+}
+
+div.logo img {
+    display: inline;
+    width: 200px;
+}
+
+.creer {
+    display: inline;
+    font-size: 20px;
+    position: absolute;
+    top: 2%;
+    margin-left: 5px;   
+}
+
+.horizontal {
+    display: inline;
+    position: absolute;
+    top: 2%;
+}
+
+li {padding: 15px;
+display: inline;
+position: relative;
+left: 750px;
+color: blueviolet;
+font-size: 18px;
+}
+
+a:hover {color: palevioletred;
+}
+
+
+.Titulo_index h1 {font-family: 'Josefin Sans', sans-serif;
+    text-align: center;color: blue;
     text-decoration: underline;
-    text-decoration-color: blueviolet;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-color: blue;}
+    margin-bottom: 5px;
+margin-top: 15px;}
+
 
 h2 {text-align: center;
     font-style: normal;
@@ -15,16 +61,20 @@ color: rgba(0, 89, 255, 0.801);}
 h3 {text-align: left;
     font-style: normal;
 font-family: 'Times New Roman', Times, serif;
-color: cornflowerblue;}
+color: cornflowerblue;
+margin-bottom: 15px;}
 
 p {text-align: left;
     font-style: italic;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 h4{text-align: left;
     font-style: inherit; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: lightskyblue;}
+    color: lightskyblue;
+    margin-top: 15px;
+    margin-bottom: 15px;}
 
 img {display: flex;
     justify-content: center;
@@ -33,5 +83,39 @@ img {display: flex;
     border-color: deepskyblue;
 }
 
+.nuevo_desafio h3 {text-align: center;
+    font-family:  'Dancing Script', cursive;
+    color:blueviolet; font-size: 25px;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.last h4 { text-align: center;
+    font-family:  'Dancing Script', cursive;
+    color:blueviolet; font-size: 25px;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+
 footer {font-style: italic;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-top: 30px;
+margin: bottom 15px;
+}
+
+@media (max-width: 576px) { body {background-color: rgb(89, 241, 191);}
+}
+
+@media (max-width: 768px) { body {background-color: rgb(27, 236, 167);}  
+}
+
+@media (max-width: 992px) { body {background-color: rgb(12, 221, 151);}
+}
+
+@media (min-width: 1200px) { body {background-color: rgb(206, 255, 239);}
+}
+
