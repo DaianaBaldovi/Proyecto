@@ -1,3 +1,1 @@
-
-console.log ("Buenos días, pertenezco a tarea n° 2"
-);
+console.log ("Código del archivo externo")
